@@ -2,7 +2,37 @@
     margin: 0;
     padding: 0;
   }
+  nav {
+    background-color: white;
+    padding: 20px;
+  }
+  .right-nav {
+    width: 50%;
+  }
+  .left-nav {
+    width: 50%;
+  }
+  input {
+    background-color: whitesmoke;
+    width: 300px;
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    border: none;
+  }
+  .srh {
+    background-color: whitesmoke;
+    width: 25px;
+    height: 25px;
+    border-right: 1px solid grey;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    padding: 0 5px;
+  }
   .srh img {
     width: 15px;
     height: 15px;
+  }
+  main {
+    min-height: 95vh;
   }
